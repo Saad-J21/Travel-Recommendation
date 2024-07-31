@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+.hidden {
+  visibility: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  padding-block: 30px;
+  font-size: 30px;
+  background-color: rgb(53, 48, 97);
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.contactUs {
+  background-image: url("travel.png");
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.contactUs {
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10%;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(39, 100, 153);
+}
+
+.form-container {
+  width: 50vw;
+  padding: 20px;
+}
+form {
+  background-color: rgba(97, 214, 214, 0.418);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+label {
+  color: rgb(53, 48, 97);
+  display: block;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+}

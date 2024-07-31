@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+.hidden {
+  visibility: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  padding-block: 30px;
+  font-size: 30px;
+  background-color: rgb(53, 48, 97);
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.home {
+  background-image: url("travel.png");
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10%;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(39, 100, 153);
+}
+
+.home--content {
+  font-size: 30px;
+}
+.results-container {
+  width: 40%;
+  height: 700px;
+  background-color: rgb(155, 40, 94);
+  overflow: scroll;
+}
+
+.result {
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+.hidden {
+  visibility: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  padding-block: 30px;
+  font-size: 30px;
+  background-color: rgb(53, 48, 97);
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.aboutUs {
+  background-image: url("travel.png");
+  background-size: cover;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(39, 100, 153);
+}
+
+.aboutUs--content {
+  padding-inline: 15%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aboutUs--content .text {
+  background-color: rgba(0, 0, 0, 0.281);
+  padding: 10px;
+}
+
+.our-team {
+  display: flex;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.281);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.image,
+.member-name,
+.role,
+.role-description {
+  margin: 0;
+}
+
+.role {
+  padding: 8px;
+  background-color: rgb(162, 76, 173);
+}
